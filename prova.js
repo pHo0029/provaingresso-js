@@ -1,4 +1,4 @@
-function calcularIngresso(idade, estudante) {
+function calculoIngresso(idade, estudante) {
   const precoInteiro = 20;
 
   if (idade <= 12 || idade >= 60) {
@@ -10,6 +10,6 @@ function calcularIngresso(idade, estudante) {
   }
 }
 
-console.log("Pessoa 1: R$", calcularIngresso(10, false)); // Criança //
-console.log("Pessoa 2: R$", calcularIngresso(25, true));  // Estudante //
-console.log("Pessoa 3: R$", calcularIngresso(30, false)); // Valor cheio //
+console.log("Pessoa 1: R$", calculoIngresso(10, false)); // Criança //
+console.log("Pessoa 2: R$", calculoIngresso(25, true));  // Estudante //
+console.log("Pessoa 3: R$", calculoIngresso(30, false)); // Valor cheio //
